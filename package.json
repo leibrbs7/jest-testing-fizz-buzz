@@ -1,0 +1,27 @@
+{
+    "name": "jest-testing-fizz-buzz",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+        "lint": "eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leibrbs7/jest-testing-fizz-buzz.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leibrbs7/jest-testing-fizz-buzz/issues"
+    },
+    "homepage": "https://github.com/leibrbs7/jest-testing-fizz-buzz#readme",
+    "type": "module",
+    "devDependencies": {
+        "eslint": "^8.29.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}
